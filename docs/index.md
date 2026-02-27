@@ -1,6 +1,6 @@
 # 🏛️ edUPath IM
 
- ### Sistema de Inteligencia de Decisión para la Retención Escolar
+### Sistema de Inteligencia de Decisión para la Retención Escolar
 
 [![Versión MVP](https://img.shields.io/badge/Versi%C3%B3n-1.0.0--MVP-blue.svg?style=for-the-badge)](#)
 [![Python](https://img.shields.io/badge/Python-3.13%2B-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
@@ -223,6 +223,7 @@ Nuestra fortaleza radica en la sinergia entre la tecnología y el impacto social
 © 2026 Todos los derechos reservados.
 
 </div>
+
 
 
 
