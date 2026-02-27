@@ -1,19 +1,19 @@
 
-<div align="center">
-# 🏛️ edUPath IM
+ # 🏛️ edUPath IM
 
-### Sistema de Inteligencia de Decisión para la Retención Escolar
+ ### Sistema de Inteligencia de Decisión para la Retención Escolar
 
 [![Versión MVP](https://img.shields.io/badge/Versi%C3%B3n-1.0.0--MVP-blue.svg?style=for-the-badge)](#)
 [![Python](https://img.shields.io/badge/Python-3.13%2B-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![OdiseIA 4Good](https://img.shields.io/badge/OdiseIA-Finalista_4Good-FFD700.svg?style=for-the-badge&logo=hackerrank&logoColor=black)](#)
 
-> *"El abandono escolar no es una fatalidad, es un fallo predecible del sistema. edUPath IM transforma el gasto público reactivo en inversión social predictiva."*
+ > *"El abandono escolar no es una fatalidad, es un fallo predecible del sistema. edUPath IM transforma el gasto público reactivo en inversión social predictiva."*
 
----
+ ---
 
 ## 🚀 Bienvenido a edUPath IM
+
 
 > **Transformando la reacción en prevención a través de la Inteligencia de Decisión.**
 
@@ -221,4 +221,5 @@ Nuestra fortaleza radica en la sinergia entre la tecnología y el impacto social
 © 2026 Todos los derechos reservados.
 
 </div>
+
 
