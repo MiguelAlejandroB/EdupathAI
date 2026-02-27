@@ -20,8 +20,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install mkdocs
-          # Si usas el tema material u otros plugins, descomenta la siguiente línea:
-          # pip install mkdocs-material 
+          pip install mkdocs-material 
           pip install -r requirements.txt
       - name: Deploy MkDocs
         run: mkdocs gh-deploy --force
