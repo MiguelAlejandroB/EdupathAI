@@ -194,12 +194,15 @@ Nuestra fortaleza radica en la sinergia entre la tecnología y el impacto social
 
 
 
-<b>Juan Camilo Bermúdez</b>: Administración, Economía y Modelos Sostenibles. 
+### 👥 Equipo Fundador
 
+Nuestra fortaleza radica en la sinergia entre la tecnología y el impacto social:
 
+* 💼 **Juan Camilo Bermúdez** — Administración, Economía y Modelos Sostenibles.  
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juan-camilo-bermudez-claros-93936a1aa/)
 
-
-<b>Miguel Alejandro Bermúdez</b>: Ingeniería, IA y Data-Driven Decisions.  
+* 💻 **Miguel Alejandro Bermúdez** — Ingeniería, IA y Data-Driven Decisions.  
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/miguel-alejandro-bermudez-ia)
 
 
 
@@ -220,6 +223,7 @@ Nuestra fortaleza radica en la sinergia entre la tecnología y el impacto social
 © 2026 Todos los derechos reservados.
 
 </div>
+
 
 
 
