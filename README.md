@@ -199,7 +199,15 @@ El desarrollo del MVP actual sienta las bases para un escalamiento de grado empr
 
 
 
-Contacto: Juan Camilo Bermúdez | Miguel Alejandro Bermúdez
+### 👥 Equipo Fundador
+
+Nuestra fortaleza radica en la sinergia entre la tecnología y el impacto social:
+
+* 💼 **Juan Camilo Bermúdez** — Administración, Economía y Modelos Sostenibles.  
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juan-camilo-bermudez-claros-93936a1aa/)
+
+* 💻 **Miguel Alejandro Bermúdez** — Ingeniería, IA y Data-Driven Decisions.  
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/miguel-alejandro-bermudez-ia)
 
 
 
