@@ -1,0 +1,1414 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Inteligencia Educativa para la prevención de la deserción escolar.">
+      
+      
+        <meta name="author" content="Juan Camilo & Miguel Alejandro Bermúdez">
+      
+      
+      
+      
+        <link rel="next" href="negocio/problema_solucion/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.3">
+    
+    
+      
+        <title>edUPath IM</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#edupath-im" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="edUPath IM" class="md-header__button md-logo" aria-label="edUPath IM" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            edUPath IM
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              🏠 Inicio
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="." class="md-tabs__link">
+        
+  
+  
+    
+  
+  🏠 Inicio
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="negocio/problema_solucion/" class="md-tabs__link">
+          
+  
+  
+  📊 Negocio e Impacto
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="tecnico/arquitectura/" class="md-tabs__link">
+          
+  
+  
+  ⚙️ Documentación Técnica
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="odiseia/pitch_final/" class="md-tabs__link">
+          
+  
+  
+  🏆 Preparación OdiseIA
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="edUPath IM" class="md-nav__button md-logo" aria-label="edUPath IM" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    edUPath IM
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🏠 Inicio
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🏠 Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sistema-de-inteligencia-de-decision-para-la-retencion-escolar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sistema de Inteligencia de Decisión para la Retención Escolar
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bienvenido-a-edupath-im" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🚀 Bienvenido a edUPath IM
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚀 Bienvenido a edUPath IM">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nuestra-propuesta-de-valor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎯 Nuestra Propuesta de Valor
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-navegar-por-esta-documentacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🗺️ ¿Cómo navegar por esta documentación?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detalles-del-proyecto-quick-look" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📑 Detalles del Proyecto (Quick Look)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-resumen-ejecutivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🏢 1. Resumen Ejecutivo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-el-caso-de-negocio-business-case" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📉 2. El Caso de Negocio (Business Case)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-arquitectura-tecnologica-e-innovacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ⚙️ 3. Arquitectura Tecnológica e Innovación
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-modulo-predictivo-y-explicabilidad-shap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧠 4. Módulo Predictivo y Explicabilidad (SHAP)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-simulador-contrafactual-causalidad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔮 5. Simulador Contrafactual (Causalidad)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-guia-rapida-de-despliegue-quick-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        💻 6. Guía Rápida de Despliegue (Quick Start)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-manual-de-usuario-flujo-de-operacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        👨‍💻 7. Manual de Usuario: Flujo de Operación
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-privacidad-etica-y-cumplimiento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛡️ 8. Privacidad, Ética y Cumplimiento
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-hoja-de-ruta-roadmap-tecnico" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🗺️ 9. Hoja de Ruta (Roadmap Técnico)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🗺️ 9. Hoja de Ruta (Roadmap Técnico)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#equipo-fundador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        👥 Equipo Fundador
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📊 Negocio e Impacto
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    📊 Negocio e Impacto
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="negocio/problema_solucion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Problema y Solución
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="negocio/modelo_canvas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modelo de Negocio (Canvas)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="negocio/ux_experiencia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Experiencia de Usuario (UX)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ⚙️ Documentación Técnica
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    ⚙️ Documentación Técnica
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="tecnico/arquitectura/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arquitectura del Sistema
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="tecnico/modelos_ml/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modelos ML y Causalidad
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="tecnico/agentes_ia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Agentes de IA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="tecnico/setup_local/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guía de Instalación
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🏆 Preparación OdiseIA
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🏆 Preparación OdiseIA
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="odiseia/pitch_final/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pitch y Estrategia
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sistema-de-inteligencia-de-decision-para-la-retencion-escolar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sistema de Inteligencia de Decisión para la Retención Escolar
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bienvenido-a-edupath-im" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🚀 Bienvenido a edUPath IM
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚀 Bienvenido a edUPath IM">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nuestra-propuesta-de-valor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎯 Nuestra Propuesta de Valor
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-navegar-por-esta-documentacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🗺️ ¿Cómo navegar por esta documentación?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detalles-del-proyecto-quick-look" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📑 Detalles del Proyecto (Quick Look)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-resumen-ejecutivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🏢 1. Resumen Ejecutivo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-el-caso-de-negocio-business-case" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📉 2. El Caso de Negocio (Business Case)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-arquitectura-tecnologica-e-innovacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ⚙️ 3. Arquitectura Tecnológica e Innovación
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-modulo-predictivo-y-explicabilidad-shap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧠 4. Módulo Predictivo y Explicabilidad (SHAP)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-simulador-contrafactual-causalidad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔮 5. Simulador Contrafactual (Causalidad)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-guia-rapida-de-despliegue-quick-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        💻 6. Guía Rápida de Despliegue (Quick Start)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-manual-de-usuario-flujo-de-operacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        👨‍💻 7. Manual de Usuario: Flujo de Operación
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-privacidad-etica-y-cumplimiento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛡️ 8. Privacidad, Ética y Cumplimiento
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-hoja-de-ruta-roadmap-tecnico" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🗺️ 9. Hoja de Ruta (Roadmap Técnico)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🗺️ 9. Hoja de Ruta (Roadmap Técnico)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#equipo-fundador" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        👥 Equipo Fundador
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="edupath-im">🏛️ edUPath IM</h1>
+<h3 id="sistema-de-inteligencia-de-decision-para-la-retencion-escolar">Sistema de Inteligencia de Decisión para la Retención Escolar</h3>
+<p><a href="#"><img alt="Versión MVP" src="https://img.shields.io/badge/Versi%C3%B3n-1.0.0--MVP-blue.svg?style=for-the-badge" /></a>
+<a href="https://www.python.org/"><img alt="Python" src="https://img.shields.io/badge/Python-3.13%2B-3776AB.svg?style=for-the-badge&amp;logo=python&amp;logoColor=white" /></a>
+<a href="https://streamlit.io/"><img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-FF4B4B.svg?style=for-the-badge&amp;logo=streamlit&amp;logoColor=white" /></a>
+<a href="#"><img alt="OdiseIA 4Good" src="https://img.shields.io/badge/OdiseIA-Finalista_4Good-FFD700.svg?style=for-the-badge&amp;logo=hackerrank&amp;logoColor=black" /></a></p>
+<blockquote>
+<p><em>"El abandono escolar no es una fatalidad, es un fallo predecible del sistema. edUPath IM transforma el gasto público reactivo en inversión social predictiva."</em></p>
+</blockquote>
+<hr />
+<h2 id="bienvenido-a-edupath-im">🚀 Bienvenido a edUPath IM</h2>
+<blockquote>
+<p><strong>Transformando la reacción en prevención a través de la Inteligencia de Decisión.</strong></p>
+</blockquote>
+<p><strong>edUPath IM</strong> no es un tablero de control tradicional. Es una plataforma operativa de Inteligencia Artificial diseñada para anticipar, comprender y mitigar la deserción escolar antes de que ocurra. </p>
+<p>Pasamos de analizar el pasado (Business Intelligence) a simular el futuro (<strong>Decision Intelligence</strong>), optimizando la asignación de recursos públicos y sociales donde realmente generan impacto.</p>
+<blockquote>
+<p>🏆 <strong>Finalistas OdiseIA 4Good:</strong> Este proyecto es uno de los 88 finalistas seleccionados para presentar su solución de impacto. Nuestra misión: demostrar que la IA puede mantener a los jóvenes en las aulas y romper los ciclos de pobreza.</p>
+</blockquote>
+<h3 id="nuestra-propuesta-de-valor">🎯 Nuestra Propuesta de Valor</h3>
+<p>El sistema educativo actual es reactivo y genérico. Nosotros proponemos un enfoque basado en tres pilares:</p>
+<ol>
+<li>🔮 <strong>Anticipación Inteligente:</strong> Capacidad de predecir el riesgo de deserción de un estudiante con hasta <strong>1 año de antelación</strong>, permitiendo intervenciones tempranas.</li>
+<li>🔀 <strong>Simulación Contrafactual:</strong> Resolvemos la pregunta <em>"¿Qué pasaría con la trayectoria de este estudiante si aplicamos la intervención X hoy?"</em> validando estrategias antes de gastar recursos.</li>
+<li>⚖️ <strong>Enfoque Ético:</strong> Evitamos el sesgo de la "caja negra". Cada predicción viene acompañada de una explicación clara de sus factores de riesgo.</li>
+</ol>
+<hr />
+<h2 id="como-navegar-por-esta-documentacion">🗺️ ¿Cómo navegar por esta documentación?</h2>
+<p>Hemos estructurado esta documentación en módulos para adaptarse a tu perfil. Selecciona la ruta que mejor se ajuste a lo que buscas:</p>
+<ul>
+<li><strong>📊 Para Perfiles de Negocio y Jurado Social:</strong> <a href="negocio/problema_solucion/">El Problema y Solución</a> • <a href="negocio/modelo_canvas/">Business Model Canvas</a> • <a href="negocio/ux_experiencia/">UX y Narrativa</a></li>
+<li><strong>⚙️ Para Perfiles Técnicos y Desarrolladores:</strong> <a href="tecnico/arquitectura/">Arquitectura del Sistema</a> • <a href="tecnico/modelos_ml/">Modelos de ML</a> • <a href="tecnico/agentes_ia/">Agentes IA</a> • <a href="tecnico/setup_local/">Setup Local</a></li>
+<li><strong>🏆 Área Interna (OdiseIA):</strong> <a href="odiseia/pitch_final/">Estrategia Pitch Final</a></li>
+</ul>
+<hr />
+<h2 id="detalles-del-proyecto-quick-look">📑 Detalles del Proyecto (Quick Look)</h2>
+<ul>
+<li><a href="#1-resumen-ejecutivo">1. Resumen Ejecutivo</a></li>
+<li><a href="#2-el-caso-de-negocio-business-case">2. El Caso de Negocio (Business Case)</a></li>
+<li><a href="#3-arquitectura-tecnológica-e-innovación">3. Arquitectura Tecnológica e Innovación</a></li>
+<li><a href="#4-módulo-predictivo-y-explicabilidad-shap">4. Módulo Predictivo y Explicabilidad (SHAP)</a></li>
+<li><a href="#5-simulador-contrafactual-causalidad">5. Simulador Contrafactual (Causalidad)</a></li>
+<li><a href="#6-guía-rápida-de-despliegue-quick-start">6. Guía Rápida de Despliegue</a></li>
+<li><a href="#7-manual-de-usuario-flujo-de-operación">7. Manual de Usuario: Flujo de Operación</a></li>
+<li><a href="#8-privacidad-ética-y-cumplimiento">8. Privacidad, Ética y Cumplimiento</a></li>
+<li><a href="#9-hoja-de-ruta-roadmap-técnico">9. Hoja de Ruta (Roadmap)</a></li>
+</ul>
+<hr />
+<h2 id="1-resumen-ejecutivo">🏢 1. Resumen Ejecutivo</h2>
+<p><strong>edUPath IM (Intelligence Management)</strong> es una plataforma SaaS B2G/B2NGO diseñada para revolucionar la forma en que los Estados y las instituciones educativas gestionan la deserción escolar.</p>
+<p>A diferencia de los sistemas de Business Intelligence tradicionales, utilizamos modelos avanzados de Machine Learning combinados con inferencia causal para crear un "gemelo digital" del comportamiento estudiantil, permitiendo a los tomadores de decisiones anticipar el fracaso y simular la efectividad de sus políticas antes de financiarlas.</p>
+<h2 id="2-el-caso-de-negocio-business-case">📉 2. El Caso de Negocio (Business Case)</h2>
+<p>El paradigma actual de la administración pública frente a la deserción escolar sufre de un grave sesgo de latencia. Las intervenciones se activan cuando la desconexión del estudiante es irreversible.</p>
+<p><strong>Coste del Status Quo:</strong>
+* <strong>Inversión Ciega:</strong> Asignación de recursos sin validación de impacto individual.
+* <strong>Costo Social:</strong> Aumento del paro juvenil y riesgo psicosocial.
+* <strong>Costo Fiscal:</strong> Cada estudiante que abandona representa cientos de miles de euros en futuros gastos penales, subsidios y pérdida de recaudación.</p>
+<p><strong>La Solución: Retorno de Prevención (RoP)</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Dimensión</th>
+<th style="text-align: left;">Sistema Tradicional</th>
+<th style="text-align: left;">edUPath IM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Enfoque Temporal</strong></td>
+<td style="text-align: left;">Reactivo (Post-mortem)</td>
+<td style="text-align: left;">Preventivo (T-12 meses)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Asignación de Capital</strong></td>
+<td style="text-align: left;">Basado en intuición</td>
+<td style="text-align: left;">Basado en simulación contrafactual</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Nivel de Acción</strong></td>
+<td style="text-align: left;">Cohortes generales</td>
+<td style="text-align: left;">Hiper-segmentado por individuo</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Transparencia</strong></td>
+<td style="text-align: left;">Cajas negras o reglas simples</td>
+<td style="text-align: left;">Valores SHAP (Auditable y explicable)</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Métrica Clave:</strong> Validar una intervención de 500€ hoy a través de edUPath IM evita incurrir en costes reactivos exponenciales mañana.</p>
+</blockquote>
+<h2 id="3-arquitectura-tecnologica-e-innovacion">⚙️ 3. Arquitectura Tecnológica e Innovación</h2>
+<p>El sistema está diseñado bajo una arquitectura modular de agentes inteligentes. En su fase MVP, opera a través de un monolito eficiente en Python, estructurado en 4 capas lógicas.</p>
+<div class="highlight"><pre><span></span><code>┌───────────────────────────────────────────────────────────────────────┐
+│                       ARQUITECTURA EDUPATH IM                         │
+├─────────────────┬─────────────────────────────────────────────────────┤
+│ 1. PRESENTACIÓN │ 💬 UI Conversacional (Streamlit)                    │
+│                 │ 📊 Visualización Dinámica (Plotly)                  │
+├─────────────────┼─────────────────────────────────────────────────────┤
+│ 2. ORQUESTACIÓN │ 🤖 Gestor de Intenciones (NLP Parsing)              │
+│                 │ 🔄 Enrutador de Agentes                             │
+├─────────────────┼─────────────────────────────────────────────────────┤
+│                 │ 📈 Predictive Agent: XGBoost / CatBoost             │
+│ 3. INTELIGENCIA │ 🔍 XAI Agent: Análisis SHAP (Explainable AI)        │
+│                 │ 🔬 Simulator Agent: Motor Contrafactual             │
+├─────────────────┼─────────────────────────────────────────────────────┤
+│ 4. DATOS        │ 🗄️ Motor de Datos Sintéticos (Temporal Q1-Q4)       │
+└─────────────────┴─────────────────────────────────────────────────────┘
+</code></pre></div>
+<h2 id="4-modulo-predictivo-y-explicabilidad-shap">🧠 4. Módulo Predictivo y Explicabilidad (SHAP)</h2>
+<p>Los docentes y trabajadores sociales no confían en algoritmos que no pueden entender. Por ello, optamos por <strong>Árboles de Decisión con Gradiente (XGBoost)</strong> potenciados por <strong>Valores Shapley (SHAP)</strong>.</p>
+<p><strong>¿Cómo funciona la Explicabilidad?</strong>
+Por cada predicción de riesgo, el sistema genera un desglose de las fuerzas que actúan sobre el estudiante:</p>
+<ul>
+<li>🟥 <strong>Fuerzas de Riesgo:</strong> (Ej. Inasistencias Q3: +25% de riesgo).</li>
+<li>🟩 <strong>Fuerzas de Retención:</strong> (Ej. Participación extracurricular: -10% de riesgo).</li>
+</ul>
+<p>Esta explicabilidad es fundamental para el cumplimiento de normativas europeas sobre IA (AI Act).</p>
+<h2 id="5-simulador-contrafactual-causalidad">🔮 5. Simulador Contrafactual (Causalidad)</h2>
+<p>La correlación no implica causalidad. El Simulador permite a las instituciones responder a preguntas tipo <em>What-If</em>.</p>
+<p><strong>Catálogo de Intervenciones Modeladas (MVP):</strong></p>
+<ul>
+<li><strong>Beca de Transporte:</strong> Reducción de inasistencias geográficas.</li>
+<li><strong>Tutoría Académica:</strong> Curva de recuperación en calificaciones (GPA).</li>
+<li><strong>Apoyo Socioeconómico:</strong> Impacto cruzado con ponderación especial para bajo Nivel Socioeconómico (NSE).</li>
+</ul>
+<h2 id="6-guia-rapida-de-despliegue-quick-start">💻 6. Guía Rápida de Despliegue (Quick Start)</h2>
+<p><strong>Pasos de Ejecución Local:</strong></p>
+<div class="highlight"><pre><span></span><code><span class="c1"># 1. Clonar el repositorio</span>
+git<span class="w"> </span>clone<span class="w"> </span><span class="o">[</span>https://github.com/MiguelAlejandroB/EdupathAI.git<span class="o">](</span>https://github.com/MiguelAlejandroB/EdupathAI.git<span class="o">)</span>
+<span class="nb">cd</span><span class="w"> </span>EdupathAI
+
+<span class="c1"># 2. Instalar dependencias</span>
+pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
+
+<span class="c1"># 3. Iniciar el servidor</span>
+streamlit<span class="w"> </span>run<span class="w"> </span>app/main.py
+</code></pre></div>
+<p><em>El sistema inicializará el pipeline, entrenará el modelo y desplegará la interfaz en <code>http://localhost:8501</code>.</em></p>
+<h2 id="7-manual-de-usuario-flujo-de-operacion">👨‍💻 7. Manual de Usuario: Flujo de Operación</h2>
+<p><strong>Paso 1: Diagnóstico</strong></p>
+<ul>
+<li><strong>Operador:</strong> <em>"Analiza el caso del estudiante Juan Pérez"</em></li>
+<li><strong>Sistema:</strong> Extrae ID, proyecta trayectoria, calcula riesgo futuro y despliega auditoría SHAP.</li>
+</ul>
+<p><strong>Paso 2: Simulación de Intervención</strong></p>
+<ul>
+<li><strong>Operador:</strong> <em>"Simula aplicarle una beca desde el trimestre 2"</em></li>
+<li><strong>Sistema:</strong> Clona el perfil (Gemelo Digital), inyecta la intervención y recalcula el riesgo. Superpone una curva verde demostrando la caída del riesgo (Ej. de 87% a 18%).</li>
+</ul>
+<h2 id="8-privacidad-etica-y-cumplimiento">🛡️ 8. Privacidad, Ética y Cumplimiento</h2>
+<p>Diseñado bajo el principio de <em>Privacy by Design</em>:</p>
+<ul>
+<li><strong>Sin PII:</strong> Solo procesa IDs hasheados. Nombres jamás tocan los modelos de ML.</li>
+<li><strong>LLM Aislado:</strong> El procesamiento de lenguaje natural (NLP) se usa solo para orquestación, no para entrenamiento.</li>
+<li><strong>Auditoría Transparente:</strong> Todas las decisiones son justificables gracias a SHAP.</li>
+</ul>
+<h2 id="9-hoja-de-ruta-roadmap-tecnico">🗺️ 9. Hoja de Ruta (Roadmap Técnico)</h2>
+<p><strong>Hito 1: MVP (Actual - Completado)</strong></p>
+<ul>
+<li>[x] Pipeline de datos sintéticos realistas.</li>
+<li>[x] Inferencia en memoria (CatBoost/XGBoost).</li>
+<li>[x] Explicabilidad SHAP y simulaciones visuales.</li>
+</ul>
+<p><strong>Hito 2: Beta Institucional (B2G Pilot)</strong></p>
+<ul>
+<li>[ ] Integración causal algorítmica (DoWhy / EconML).</li>
+<li>[ ] Conexión a bases relacionales (PostgreSQL).</li>
+<li>[ ] Autenticación OAuth2/SSO y Dockerización.</li>
+</ul>
+<p><strong>Hito 3: IA Orquestadora Autónoma</strong></p>
+<ul>
+<li>[ ] Integración de LangChain (ReAct). Optimización de presupuesto institucional para maximizar retención a gran escala.</li>
+</ul>
+<hr />
+<h3 id="equipo-fundador">👥 Equipo Fundador</h3>
+<p>Nuestra fortaleza radica en la sinergia entre la tecnología y el impacto social:</p>
+<ul>
+<li>
+<p>💼 <strong>Juan Camilo Bermúdez</strong> — Administración, Economía y Modelos Sostenibles.
+  <a href="https://www.linkedin.com/in/juan-camilo-bermudez-claros-93936a1aa/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" /></a></p>
+</li>
+<li>
+<p>💻 <strong>Miguel Alejandro Bermúdez</strong> — Ingeniería, IA y Data-Driven Decisions.
+  <a href="https://www.linkedin.com/in/miguel-alejandro-bermudez-ia"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" /></a></p>
+</li>
+</ul>
+<hr width="50%">
+
+<p><b>edUPath IM</b></p>
+<p><i>Ingeniería colombiana para la resolución de retos globales.</i></p>
+<p>© 2026 Todos los derechos reservados.</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
