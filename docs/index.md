@@ -1,5 +1,4 @@
-
- # 🏛️ edUPath IM
+# 🏛️ edUPath IM
 
  ### Sistema de Inteligencia de Decisión para la Retención Escolar
 
@@ -195,12 +194,12 @@ Nuestra fortaleza radica en la sinergia entre la tecnología y el impacto social
 
 
 
-<b>Juan Camilo Bermúdez</b>: Ingeniería, IA y Data-Driven Decisions. 
+<b>Juan Camilo Bermúdez</b>: Administración, Economía y Modelos Sostenibles. 
 
 
 
 
-<b>Miguel Alejandro Bermúdez</b>: Administración, Economía y Modelos Sostenibles. 
+<b>Miguel Alejandro Bermúdez</b>: Ingeniería, IA y Data-Driven Decisions.  
 
 
 
@@ -221,5 +220,6 @@ Nuestra fortaleza radica en la sinergia entre la tecnología y el impacto social
 © 2026 Todos los derechos reservados.
 
 </div>
+
 
 
