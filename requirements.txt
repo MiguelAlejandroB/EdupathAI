@@ -1,0 +1,16 @@
+# --- Frontend y Visualización ---
+streamlit>=1.30.0
+plotly>=5.18.0
+
+# --- Manipulación de Datos ---
+pandas>=2.0.0
+numpy>=1.24.0
+
+# --- Machine Learning y Causalidad (El Cerebro) ---
+catboost>=1.2.0
+xgboost>=2.0.0
+shap>=0.44.0
+
+# --- Documentación (Para la Fase de Entrega) ---
+mkdocs>=1.5.0
+mkdocs-material>=9.5.0

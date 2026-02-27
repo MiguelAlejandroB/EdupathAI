@@ -1,0 +1,37 @@
+site_name: edUPath IM
+site_description: Inteligencia Educativa para la prevención de la deserción escolar.
+site_author: Juan Camilo & Miguel Alejandro Bermúdez
+
+theme:
+  name: material
+  features:
+    - navigation.tabs           # Pestañas en la parte superior
+    - navigation.sections       # Secciones desplegables en el menú lateral
+    - navigation.top            # Botón de "Volver arriba"
+    - search.suggest
+    - search.highlight
+    - content.code.copy         # Botón para copiar código
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.mermaid_format
+  - tables
+
+nav:
+  - 🏠 Inicio: index.md
+  - 📊 Negocio e Impacto:
+      - Problema y Solución: negocio/problema_solucion.md
+      - Modelo de Negocio (Canvas): negocio/modelo_canvas.md
+      - Experiencia de Usuario (UX): negocio/ux_experiencia.md
+  - ⚙️ Documentación Técnica:
+      - Arquitectura del Sistema: tecnico/arquitectura.md
+      - Modelos ML y Causalidad: tecnico/modelos_ml.md
+      - Agentes de IA: tecnico/agentes_ia.md
+      - Guía de Instalación: tecnico/setup_local.md
+  - 🏆 Preparación OdiseIA:
+      - Pitch y Estrategia: odiseia/pitch_final.md
